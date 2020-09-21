@@ -21,7 +21,7 @@ describe('Student', () => {
     const student = new Student('Tom', 21, 2);
     expect(student.name).toBe('Tom');
     expect(student.age).toBe(21);
-    expect(student.klass).toBe(2);
+    expect(student.studentClass).toBe(2);
   });
 
   test('should overwrite Person introduce, introduce with name, age and class number', () => {
@@ -36,7 +36,7 @@ describe('Teacher', () => {
     const teacher = new Teacher('Tom', 21, 2);
     expect(teacher.name).toBe('Tom');
     expect(teacher.age).toBe(21);
-    expect(teacher.klass).toBe(2);
+    expect(teacher.teacherClass).toBe(2);
   });
 
   test('should overwrite Person introduce, introduce with name, age and class number, given teacher have class', () => {
